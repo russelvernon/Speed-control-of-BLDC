@@ -1,0 +1,11 @@
+% Prompt the user for the first constant value 
+constant_value1 = input('Enter the first constant value: '); 
+% Prompt the user for the second constant value 
+constant_value2 = input('Enter the second constant value: '); 
+% Display the entered values 
+disp(['You entered: ', num2str(constant_value1), and', num2str(constant_value2)]); 
+% Define the time vector (0 and 10 for a start and stop time, adjust if needed)
+time = [0; 10]; 
+% Format the constant values as time-series data 
+data1 = [time, repmat(constant_value1, length(time), 1)] 
+data2 [time, repmat(constant_value2, length(time), 1)]
